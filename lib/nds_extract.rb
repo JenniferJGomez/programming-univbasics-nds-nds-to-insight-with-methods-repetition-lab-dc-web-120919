@@ -47,8 +47,13 @@ def total_gross(source)
   directors_names = list_of_directors(source)
 
   while index < directors_names.length do
+<<<<<<< HEAD
     #binding.pry
     total += directors_gross[directors_names[index]]
+=======
+    binding.pry
+    total += directors_gross
+>>>>>>> ae95191bf9558f6ff402354b5bda5efc74ccfb78
     index += 1
   end
 
